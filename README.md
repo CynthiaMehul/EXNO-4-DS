@@ -1,7 +1,6 @@
 # EXNO:4-DS
 # AIM:
-To read the given data and perform Feature Scaling and Feature Selection process and save the
-data to a file.
+To read the given data and perform Feature Scaling and Feature Selection process and save the data to a file.
 
 # ALGORITHM:
 STEP 1:Read the given Data.
@@ -49,18 +48,27 @@ The feature selection techniques used are:
 
 # 1) Filter Methods
 # Chi Square Method (Selected Features)
+
 <img width="731" height="77" alt="image" src="https://github.com/user-attachments/assets/381cf364-fe90-4086-9bd9-6fe325054683" />
 
 # Fisher Score Method (Selected Features)
+
 <img width="756" height="80" alt="image" src="https://github.com/user-attachments/assets/77d6a826-55d8-4b60-b11d-466416362d4a" />
 
 # Information Gain (Selected Features)
+
 <img width="510" height="88" alt="image" src="https://github.com/user-attachments/assets/7ef09ff0-85bd-4015-88fe-f03c628cbeb1" />
 
-# 2) Wrapper Methods
+# 2) Wrapper Methods (Forward Selection and Backward Elimination Methods)
 
-# 3) Embedded Methods
+<img width="916" height="58" alt="image" src="https://github.com/user-attachments/assets/968b46cc-a6c4-44c9-a213-af32b30ac2c7" />
 
+# 3) Embedded Methods (Selected Features)
+
+<img width="587" height="76" alt="image" src="https://github.com/user-attachments/assets/486bb3c8-6218-4b63-ab82-742c8baf3d2c" />
 
 # RESULT:
-       # INCLUDE YOUR RESULT HERE
+Therefore, various feature scaling methods such as standard scaler, minmax scaler, maxabs scaler, robust scaler is used for the magnesium column in the wine dataset since it ranges from _ to _. It requires proper scaling of the field to improve model performance. Various feature selection methods are also used. They fall under three categories.
+1) Filter method which uses statistical models to select the best features (Chi Square, Fisher Score and Information Gain)
+2) Wrapper method applies machine learning algorithm iteratively to different subsets of features and identifies the best. There are two kinds: Foward Selection and Backward Elimination.
+3) Embedded Methods
